@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(235, 213, 191);
+    margin: 0;
+    padding: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: rgb(14, 65, 110);
+    padding: 10px;
+}
+
+header h1{
+    text-align: center;
+    color: white;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header .Personajes{
+    display: flex;
+    justify-content: space-around;   
+}
+
+footer{
+    background-color: rgb(14, 65, 110);
+    color: white;
+    padding: 5px;
+}
+
+footer a{
+    color: white;
+    float: right;
+    text-decoration: none;
+}
+
+footer p{
+    margin: 0;
+}
+
+Section {
+    display: flex;
+    padding: 20px;
+    
+}
+
+img{
+    border-radius: 0.8rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+img:hover{
+    transform: scale(1.02);
+}
+@media (min-width:600px){
+    body{
+         font-size: 18px;
+         margin: 0;
+
+
+    }
+    section {
+        width: 50%;
+        margin: auto;
+      }
+    img {
+        width: 100%;
+        height: auto;
+      }
+}
+@media only screen and (max-width: 600px) {
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    section {
+        width: 100%;
+        margin: auto;
+      }
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
